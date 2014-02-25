@@ -30,7 +30,7 @@ bundle install
 That's it. Its ready to go.
 
 
-## Contribute
+## Tags
 
 MediaPlayer, ListView, ProgressBar, AsyncTask, SharedPreferences or URLConnection
 
