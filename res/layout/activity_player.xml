@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerActivity" >
+
+    <ListView
+        android:id="@+id/listViewSongs"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/playerControls" >
+
+    </ListView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/playerControls"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true">
+
+        <ProgressBar
+            android:id="@+id/songProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+	        android:orientation="horizontal"
+	        android:id="@+id/playerButtons"
+	        android:weightSum="105"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/left1"
+                android:layout_weight="20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/startTimeTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0:00"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                <Button
+                    android:id="@+id/backButton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="back" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/left2"
+                android:layout_weight="20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/emptyTextView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+		        <ToggleButton
+		            android:id="@+id/repeatToggleButton"
+		            android:layout_width="fill_parent"
+		            android:layout_height="match_parent"
+		            android:checked="true"
+		            android:textOn="repeat"
+		            android:textOff="repeat" />
+            </LinearLayout>
+            
+            <Button
+                android:id="@+id/playButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_weight="25"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="download" />
+
+            <LinearLayout
+                android:id="@+id/right2"
+                android:layout_weight="20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/emptyTextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  "
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+		        <ToggleButton
+		            android:id="@+id/randomToggleButton"
+		            android:layout_width="match_parent"
+		            android:layout_height="match_parent"
+		            android:checked="false"
+		            android:textOn="rand"
+		            android:textOff="rand" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/right1"
+                android:layout_weight="20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+                <TextView
+                    android:id="@+id/endTimeTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-:--"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+                <Button
+                    android:id="@+id/nextButton"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="next" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

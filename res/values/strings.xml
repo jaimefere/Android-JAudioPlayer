@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JAudioPlayer</string>
+    <string name="action_download_all">Download all</string>
+    <string name="action_remove_download">Delete</string>
+    
+    <string name="songs_file">tracks.txt</string>
+    
+	<!-- SharedPreferences -->
+    <string name="shared_preferences_file">settings</string>
+    <string name="random_toggle">repeat</string>
+    <string name="repeat_toggle">random</string>
+    
+
+</resources>
