@@ -28,3 +28,12 @@ bundle install
 ```
 
 That's it. Its ready to go.
+
+
+## Contribute
+
+MediaPlayer, ListView, ProgressBar, AsyncTask, SharedPreferences or URLConnection
+
+## License
+
+See LICENSE file for details
