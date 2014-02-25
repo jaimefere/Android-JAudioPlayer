@@ -5,7 +5,7 @@ JAudioPlayer
 
 JAudioPlayer is a simple music player for Android.
 
-<img width=250 src="https://raw.githubusercontent.com/jimy12/Android-JAudioPlayer/master/raw/screenshots/portrait.png"/><img width=520 align="right" src="https://raw.githubusercontent.com/jimy12/Android-JAudioPlayer/master/raw/screenshots/landscape.png"/>
+<img width=200 src="https://raw.githubusercontent.com/jimy12/Android-JAudioPlayer/master/raw/screenshots/portrait.png"/><img width=430 align="right" src="https://raw.githubusercontent.com/jimy12/Android-JAudioPlayer/master/raw/screenshots/landscape.png"/>
 
 ## Features
 
