@@ -10,8 +10,10 @@ JAudioPlayer is a simple music player for Android.
 ## Features
 
 - Track list (name-url pairs) from assets
-- Songs can be downloaded and reproduced
+- Standard player controls (play, pause, forward, backward, random and repeat)
+- Download, pause and resume songs to SD storage
 - Download from several servers: Windows Azure, Dropbox or OneDrive
+- Android Gingerbread or upper versions
 
 ## Install
 
