@@ -3,7 +3,7 @@ JAudioPlayer
 
 ### Android Audio Player
 
-JAudioPlayer is a simple music player for Android.
+JAudioPlayer is a simple music player for iOs and Android.
 
 <img width=200 src="https://raw.githubusercontent.com/jimy12/Android-JAudioPlayer/master/raw/screenshots/portrait.png"/><img width=430 align="right" src="https://raw.githubusercontent.com/jimy12/Android-JAudioPlayer/master/raw/screenshots/landscape.png"/>
 
@@ -13,7 +13,7 @@ JAudioPlayer is a simple music player for Android.
 - Standard player controls (play, pause, forward, backward, random and repeat)
 - Download, pause and resume songs to SD storage
 - Download from several servers: Windows Azure, Dropbox or OneDrive
-- Android Gingerbread or upper versions
+- Android Gingerbread and upper versions
 
 ## Install
 
